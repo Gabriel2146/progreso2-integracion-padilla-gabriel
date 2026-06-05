@@ -9,7 +9,7 @@
 
 ## Repositorio GitHub de la solución
 
-> https://github.com/gabrielpadi17/progreso2-integracion-padilla-gabriel
+> https: https://github.com/Gabriel2146/progreso2-integracion-padilla-gabriel 
 
 ---
 
@@ -52,7 +52,7 @@ Usuario: `guest` / Contraseña: `guest`
 
 ### Opción 1: con Docker (recomendado)
 
-> Si en tu PC no tienes instalado `mvn`, esta opción funciona igual porque el build se hace dentro del contenedor.
+> requisito: tener instalado `mvn`, funciona igual ya que la build se hace dentro del container
 
 1) Levantar RabbitMQ + la aplicación:
 
@@ -62,7 +62,7 @@ docker-compose up -d --build
 
 2) La aplicación levanta en: http://localhost:8080
 
-### Opción 2: con Maven (si lo tienes instalado)
+### Opción 2: con Maven (si si está instalado)
 
 ```bash
 mvn spring-boot:run
@@ -134,6 +134,7 @@ curl -X POST http://localhost:8080/api/citas \
 ```
 
 ---
+Adicional: se creo el json de la coleccion con todos los parametros para importarlo a Postman y poder validar el funcionamiento mas rapido
 
 ## Arquitectura de integración
 
