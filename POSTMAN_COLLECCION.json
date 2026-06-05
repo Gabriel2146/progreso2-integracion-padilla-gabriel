@@ -1,0 +1,69 @@
+{
+  "info": {
+    "name": "Salud360 - Progreso2 Integración",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": "Colección Postman para probar el endpoint POST /api/citas. Incluye request válido e inválido."
+  },
+  "item": [
+    {
+      "name": "Registrar cita - Válida (200)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:8080/api/citas",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "citas"
+          ]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"idCita\": \"CITA-1001\",\n  \"paciente\": \"Ana Torres\",\n  \"correo\": \"ana.torres@email.com\",\n  \"especialidad\": \"Cardiología\",\n  \"fechaCita\": \"2026-06-15\",\n  \"sede\": \"Centro Norte\",\n  \"valor\": 45.50\n}"
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Registrar cita - Inválida (400)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:8080/api/citas",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "citas"
+          ]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"paciente\": \"Ana Torres\"\n}"
+        }
+      },
+      "response": []
+    }
+  ],
+  "variable": []
+}
+
