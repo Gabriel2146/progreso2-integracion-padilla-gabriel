@@ -1,0 +1,5 @@
+# Log de citas rechazadas - Salud360
+# Formato: TIMESTAMP | idCita: X | Motivos: ... | Payload: ...
+2026-06-04 20:18:36 | idCita: N/A | Motivos: idCita es obligatorio, correo es obligatorio, especialidad es obligatoria, fechaCita es obligatoria, sede es obligatoria, valor debe ser mayor a 0 | Payload: {"idCita":null,"paciente":"Ana Torres","correo":null,"especialidad":null,"fechaCita":null,"sede":null,"valor":null}
+2026-06-04 20:52:37 | idCita: N/A | Motivos: idCita es obligatorio, correo es obligatorio, especialidad es obligatoria, fechaCita es obligatoria, sede es obligatoria, valor debe ser mayor a 0 | Payload: {"idCita":null,"paciente":"Ana Torres","correo":null,"especialidad":null,"fechaCita":null,"sede":null,"valor":null}
+2026-06-04 21:18:30 | idCita: N/A | Motivos: idCita es obligatorio, correo es obligatorio, especialidad es obligatoria, fechaCita es obligatoria, sede es obligatoria, valor debe ser mayor a 0 | Payload: {"idCita":null,"paciente":"Ana Torres","correo":null,"especialidad":null,"fechaCita":null,"sede":null,"valor":null}
